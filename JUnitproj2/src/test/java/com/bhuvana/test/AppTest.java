@@ -43,8 +43,8 @@ public class AppTest
 	public void testwithsmallnumbers()
 	{
 		System.out.println("AppTest.testwithbignumbers()");
-		double expected=480.00;
-		double actual=bs.simpleInterest(2000.00,2.0,12.0);
+		double expected=960.00;
+		double actual=bs.simpleInterest(4000.00,2.0,12.0);
 		assertEquals(expected,actual,0.2f);
 	}
 	
